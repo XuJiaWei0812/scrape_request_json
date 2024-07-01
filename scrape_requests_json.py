@@ -6,8 +6,6 @@ import sys
 import os
 from openpyxl import Workbook, load_workbook
 
-# 主要是用來練習 requests 爬取 api 時的方法
-
 # 獲取 json 資料
 def get_fetch_json(url, session, headers):
     try:
