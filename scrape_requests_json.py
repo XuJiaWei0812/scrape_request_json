@@ -41,12 +41,16 @@ def parse_detail_json(data):
         
         # 電影名稱
         detail_data.append(data['name'])
+        
         # 上映日期
         detail_data.append(data['published_at'])
+        
         # 電影評分
         detail_data.append(data['score'])
+        
         # 電影時長
         detail_data.append(data['minute'] + " 分钟")
+        
         # 電影簡介
         detail_data.append(data['drama'])
         
